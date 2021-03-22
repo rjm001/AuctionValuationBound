@@ -1,0 +1,3 @@
+# README.md
+
+In this project, I simulate English (1st price, open, ascending) auctions with iid valuations across bidders and across auctions. Auction participants follow two simple rules: they don't bid above their own valuations and they always offer a bid if the leading bid plus the auction step value  is below their own valuatoins. When multiple participants bid at the same time, the accepted bid is selected across bidders at random. Each auction ends when no higher bids are submitted. I then recover the bounds on the valuation of bids using techniques from Haile and Taimer (2003) and Chernozhukov, Lee and Rosen (2013).
